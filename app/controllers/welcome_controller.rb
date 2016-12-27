@@ -3,9 +3,17 @@ class WelcomeController < ApplicationController
     end
 
     def update
-        puts "Received parameters:"
-        puts params[:parameter_1]
-        puts params[:parameter_2]
-        redirect_to :root
+        if params[:parameter_1] != "" and params[:parameter_2] != ""
+            redirect_to "/good"
+        else
+            redirect_to "/bad"
+        end
+        
+    end
+
+    def good
+    end
+
+    def bad
     end
 end

@@ -10,9 +10,14 @@ body, html{
 }
 
 h1.title { 
-    font-size: 50px;
-    font-family: 'Passion One', cursive; 
-    font-weight: 400; 
+    font-size: 40px;
+    font-family: "Times New Roman", Times, serif; 
+    font-weight: 400;
+    font-style: italic;
+    font-weight: bold;
+    font-variant: normal;
+    letter-spacing: 0px;
+    line-height: 20px;
 }
 
 hr{

@@ -9,7 +9,7 @@
       <div class="row main">
         <div class="panel-heading">
                 <div class="panel-title text-center">
-                  <h1 class="title">Projekt</h1>
+                  <h1 class="title">Projekt - sieci neuronowe</h1>
                 </div>
               </div> 
         <div class="main-login main-center">
@@ -17,28 +17,98 @@
         <%= form_tag("welcome/update/", :method =>'post') do %>
 
             <div class="form-group">
-              <label for="name" class="cols-sm-2 control-label">Parametr 1</label>
               <div class="cols-sm-10">
                 <div class="input-group">
                   <span class="input-group-addon"><i class="glyphicon glyphicon-ok" aria-hidden="true"></i></span>
-                    <%= text_field_tag "parameter_1", "", :placeholder =>  "Podaj Parametr nr 1", :class => "form-control"%>
+                    <%= text_field_tag "parameter_1", "", :placeholder =>  "Podaj parametr nr 1", :class => "form-control"%>
                 </div>
               </div>
             </div>
 
 
             <div class="form-group">
-              <label for="name" class="cols-sm-2 control-label">Parametr 2</label>
               <div class="cols-sm-10">
                 <div class="input-group">
                   <span class="input-group-addon"><i class="glyphicon glyphicon-ok" aria-hidden="true"></i></span>
-                    <%= text_field_tag "parameter_2", "", :placeholder =>  "Podaj Parametr nr 2", :class => "form-control"%>
+                    <%= text_field_tag "parameter_2", "", :placeholder =>  "Podaj parametr nr 2", :class => "form-control"%>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <div class="cols-sm-10">
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="glyphicon glyphicon-ok" aria-hidden="true"></i></span>
+                    <%= text_field_tag "parameter_3", "", :placeholder =>  "Podaj parametr nr 3", :class => "form-control"%>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <div class="cols-sm-10">
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="glyphicon glyphicon-ok" aria-hidden="true"></i></span>
+                    <%= text_field_tag "parameter_4", "", :placeholder =>  "Podaj parametr nr 4", :class => "form-control"%>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <div class="cols-sm-10">
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="glyphicon glyphicon-ok" aria-hidden="true"></i></span>
+                    <%= text_field_tag "parameter_5", "", :placeholder =>  "Podaj parametr nr 5", :class => "form-control"%>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <div class="cols-sm-10">
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="glyphicon glyphicon-ok" aria-hidden="true"></i></span>
+                    <%= text_field_tag "parameter_6", "", :placeholder =>  "Podaj parametr nr 6", :class => "form-control"%>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <div class="cols-sm-10">
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="glyphicon glyphicon-ok" aria-hidden="true"></i></span>
+                    <%= text_field_tag "parameter_7", "", :placeholder =>  "Podaj parametr nr 7", :class => "form-control"%>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <div class="cols-sm-10">
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="glyphicon glyphicon-ok" aria-hidden="true"></i></span>
+                    <%= text_field_tag "parameter_8", "", :placeholder =>  "Podaj parametr nr 8", :class => "form-control"%>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <div class="cols-sm-10">
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="glyphicon glyphicon-ok" aria-hidden="true"></i></span>
+                    <%= text_field_tag "parameter_9", "", :placeholder =>  "Podaj parametr nr 9", :class => "form-control"%>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <div class="cols-sm-10">
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="glyphicon glyphicon-ok" aria-hidden="true"></i></span>
+                    <%= text_field_tag "parameter_10", "", :placeholder =>  "Podaj parametr nr 10", :class => "form-control"%>
                 </div>
               </div>
             </div>
 
             <div class="form-group ">
-              <%= submit_tag "Wyslij", :class => "btn btn-primary btn-lg btn-block login-button fa-circle-o-notch fa-spin", data: { disable_with: "Przetwarzanie..." } %>
+              <%= submit_tag "Wyslij", :class => "btn btn-primary btn-lg btn-block login-button ", data: { disable_with: "Przetwarzanie..." } %>
             </div>
 
         <% end %>

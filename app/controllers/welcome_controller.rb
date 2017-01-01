@@ -3,7 +3,7 @@ class WelcomeController < ApplicationController
     end
 
     def update
-        if params[:parameter_1] != "" and params[:parameter_2] != "" and willDie?
+        if willDie?
             redirect_to "/good"
         else
             redirect_to "/bad"

@@ -17,92 +17,102 @@
         <%= form_tag("welcome/update/", :method =>'post') do %>
 
             <div class="form-group">
+            <label for="parameter_1" class="cols-sm-2 control-label">Numer kodowy</label>
               <div class="cols-sm-10">
                 <div class="input-group">
                   <span class="input-group-addon"><i class="glyphicon glyphicon-ok" aria-hidden="true"></i></span>
-                    <%= text_field_tag "parameter_1", "", :placeholder =>  "Podaj parametr nr 1", :class => "form-control"%>
+                    <%= text_field_tag "parameter_1", "1", :placeholder =>  "Liczba całkowita", :class => "form-control"%>
                 </div>
               </div>
             </div>
 
 
             <div class="form-group">
+            <label for="parameter_2" class="cols-sm-2 control-label">Grubość kępy</label>
               <div class="cols-sm-10">
                 <div class="input-group">
                   <span class="input-group-addon"><i class="glyphicon glyphicon-ok" aria-hidden="true"></i></span>
-                    <%= text_field_tag "parameter_2", "", :placeholder =>  "Podaj parametr nr 2", :class => "form-control"%>
+                    <%= select_tag "parameter_2", raw("<option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option><option>10</option>"), :class => "form-control"%>
                 </div>
               </div>
             </div>
 
             <div class="form-group">
+            <label for="parameter_3" class="cols-sm-2 control-label">Jednolitość wielkości komórek</label>
               <div class="cols-sm-10">
                 <div class="input-group">
                   <span class="input-group-addon"><i class="glyphicon glyphicon-ok" aria-hidden="true"></i></span>
-                    <%= text_field_tag "parameter_3", "", :placeholder =>  "Podaj parametr nr 3", :class => "form-control"%>
+                    <%= select_tag "parameter_3", raw("<option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option><option>10</option>"), :class => "form-control"%>
                 </div>
               </div>
             </div>
 
             <div class="form-group">
+            <label for="parameter_4" class="cols-sm-2 control-label">Równomierność kształtu komórek</label>
               <div class="cols-sm-10">
                 <div class="input-group">
                   <span class="input-group-addon"><i class="glyphicon glyphicon-ok" aria-hidden="true"></i></span>
-                    <%= text_field_tag "parameter_4", "", :placeholder =>  "Podaj parametr nr 4", :class => "form-control"%>
+                    <%= select_tag "parameter_4", raw("<option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option><option>10</option>"), :class => "form-control"%>
                 </div>
               </div>
             </div>
 
             <div class="form-group">
+            <label for="parameter_5" class="cols-sm-2 control-label">Krańcowa przyczepność</label>
               <div class="cols-sm-10">
                 <div class="input-group">
                   <span class="input-group-addon"><i class="glyphicon glyphicon-ok" aria-hidden="true"></i></span>
-                    <%= text_field_tag "parameter_5", "", :placeholder =>  "Podaj parametr nr 5", :class => "form-control"%>
+                    <%= select_tag "parameter_5", raw("<option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option><option>10</option>"), :class => "form-control"%>
                 </div>
               </div>
             </div>
 
             <div class="form-group">
+             <label for="parameter_6" class="cols-sm-2 control-label">Rozmiar pojedynczej komórki nabłonka</label>
               <div class="cols-sm-10">
                 <div class="input-group">
                   <span class="input-group-addon"><i class="glyphicon glyphicon-ok" aria-hidden="true"></i></span>
-                    <%= text_field_tag "parameter_6", "", :placeholder =>  "Podaj parametr nr 6", :class => "form-control"%>
+                    <%= select_tag "parameter_6", raw("<option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option><option>10</option>"), :class => "form-control"%>
                 </div>
               </div>
             </div>
 
             <div class="form-group">
+             <label for="parameter_7" class="cols-sm-2 control-label">Rozmiar jądra komórkowego</label>
               <div class="cols-sm-10">
                 <div class="input-group">
                   <span class="input-group-addon"><i class="glyphicon glyphicon-ok" aria-hidden="true"></i></span>
-                    <%= text_field_tag "parameter_7", "", :placeholder =>  "Podaj parametr nr 7", :class => "form-control"%>
+                    <%= select_tag "parameter_7", raw("<option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option><option>10</option>"), :class => "form-control"%>
                 </div>
               </div>
             </div>
 
             <div class="form-group">
+             <label for="parameter_8" class="cols-sm-2 control-label">Jaskrawość chromatyczna</label>
               <div class="cols-sm-10">
                 <div class="input-group">
                   <span class="input-group-addon"><i class="glyphicon glyphicon-ok" aria-hidden="true"></i></span>
-                    <%= text_field_tag "parameter_8", "", :placeholder =>  "Podaj parametr nr 8", :class => "form-control"%>
+                    <%= select_tag "parameter_8", raw("<option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option><option>10</option>"), :class => "form-control"%>
                 </div>
               </div>
             </div>
 
             <div class="form-group">
+             <label for="parameter_9" class="cols-sm-2 control-label">Rozmiar jąderka</label>
               <div class="cols-sm-10">
                 <div class="input-group">
                   <span class="input-group-addon"><i class="glyphicon glyphicon-ok" aria-hidden="true"></i></span>
-                    <%= text_field_tag "parameter_9", "", :placeholder =>  "Podaj parametr nr 9", :class => "form-control"%>
+                    <%= select_tag "parameter_9", raw("<option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option><option>10</option>"), :class => "form-control"%>
                 </div>
               </div>
             </div>
 
             <div class="form-group">
+             <label for="parameter_10" class="cols-sm-2 control-label">Mitozy</label>
               <div class="cols-sm-10">
                 <div class="input-group">
                   <span class="input-group-addon"><i class="glyphicon glyphicon-ok" aria-hidden="true"></i></span>
-                    <%= text_field_tag "parameter_10", "", :placeholder =>  "Podaj parametr nr 10", :class => "form-control"%>
+                    <%= select_tag "parameter_10", raw("<option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option><option>10</option>"), :class => "form-control"%>
                 </div>
               </div>
             </div>
